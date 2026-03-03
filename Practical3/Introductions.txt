@@ -1,4 +1,5 @@
-Hello, my name is Rob.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
-I am happy that I can push my repo from Visual Studio Code to GitHub
+Name: Jin Chenxi
+Course: IBI1 2025/26
+Degree: Biomedical Sciences
+
+I am an undergraduate student with a strong interest in biomedical research, genetics, and global health. I am particularly interested in how data analysis can be applied to understand biological systems. Through this course, I hope to develop my skills in version control and computational tools for scientific research.
