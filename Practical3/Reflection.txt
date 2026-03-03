@@ -1,0 +1,10 @@
+Reflection on Practical 3
+
+In this practical, I learned how to use Git and GitHub for version control. 
+At the beginning, I found the command line a little confusing, especially understanding the difference between git add, git commit and git push.
+
+Forking and cloning repositories helped me understand how local and remote repositories are connected. I also learned how branches work and how to merge changes.
+
+One challenge was solving errors in the terminal, such as permission issues and command errors. However, by carefully reading the error messages, I was able to fix them.
+
+I still have questions about merge conflicts and how Git handles complex collaborations, but overall this practical helped me gain confidence in using Git.
