@@ -4,9 +4,9 @@
 # 4 set loops until everyone infected
 # 5 print everyday's infected number
 # 6 print the number of days taken to infect all
-infected = 5 #initial infected number
-growth_rate = 0.4 # growth rate
-class_size = 91 # class size
+infected = 5 # assign the value of initial infected number
+growth_rate = 0.4 # assign the value of growth rate
+class_size = 91 # assign the value of class size
 day = 1
 while infected < class_size :
     print("Day",day,"infected number",infected)
