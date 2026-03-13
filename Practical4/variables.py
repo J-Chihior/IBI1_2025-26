@@ -1,10 +1,13 @@
-a=5.08
-b=5.33
-c=5.55
-d=b-a
-e=c-b
+a=5.08 # assign the value of population for the year 2004
+b=5.33 # assign the value of population for the year 2014
+c=5.55 # assign the value of population for the year 2024
+d=b-a # Calculate the change between 2004 and 2014
+e=c-b # Calculate the change between 2014 and 2024
+# Print the change from 2004 to 2014
 print("change 2004-2014:", d)
+# Print the change from 2014 to 2024
 print("change 2014-2024:", e)
+# Compare the two changes to determine the growth trend
 if d<e:
     print("Growth is acelerating")
 elif d>e:

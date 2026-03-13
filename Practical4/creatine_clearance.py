@@ -4,10 +4,11 @@
 # 4 if femal: multiply by 0.85
 # 5 print esult
 # 6 if invalid, print the exact error
-age = int(input("please enter your age"))
-weight = float(input("please enter your weight, in kg"))
-gender = input("please enter your gender")
-Cr = float (input("please enter your creation concentration, in µmol/l"))
+age = int(input("please enter your age")) # store the value of a person's age
+weight = float(input("please enter your weight, in kg")) # store the value of a person's weight
+gender = input("please enter your gender") # store the value of a person's gender
+Cr = float (input("please enter your creation concentration, in µmol/l")) # store the value of a person's creatine
+# check if input variables meet requirements
 error = False
 if age >= 100:
     print ("Error:age should be less than 100")
@@ -21,6 +22,7 @@ if Cr <= 0 or Cr >= 100 :
 if gender != "female" and gender != "male":
     print("Error: gender should be either male or female")
     error = True
+# print the creatine clearanc if all the requirements are met
 if error == False:
     CrCl = ((140-age)* weight)/ (72* Cr) 
     if gender == "female" :
