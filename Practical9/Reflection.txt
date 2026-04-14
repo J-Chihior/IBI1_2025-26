@@ -1,0 +1,13 @@
+Reflection
+
+In this practical, I learned how infectious disease spread can be represented using probabilistic models in Python. Compared with previous coding exercises, this practical was more challenging because it required both programming skills and an understanding of the biological meaning of the SIR model.
+
+The first task, building a simple stochastic SIR model, helped me understand the relationship between susceptible, infected, and recovered individuals over time. At first, I found it confusing to separate the variables that store the current population numbers from the lists that record results over time. I also made some mistakes when using random.choice(), especially in understanding that I needed to sum the outcomes to calculate the number of newly infected or recovered individuals. After fixing these problems, I was able to produce a plot showing how the three groups changed over time.
+
+The vaccination task was interesting because it showed how increasing the proportion of vaccinated individuals reduced the spread of infection. This part made the idea of herd immunity much clearer to me. By comparing curves with different vaccination percentages, I could see that higher vaccination rates strongly reduced the infection peak.
+
+The spatial SIR model was the most difficult part. It was harder because I had to think not only about the number of infected people, but also about their positions in a 2D population grid. However, this task was also the most visually interesting, because it allowed me to see how infection spreads through neighbouring individuals in space. It helped me understand the difference between a well-mixed model and a spatial model.
+
+The most important thing I learned from this practical is that stochastic models do not always give exactly the same result each time, because they depend on probability. This helped me understand why repeated runs can produce slightly different epidemic curves. I also learned how mathematical and computational models can be used to study real biological and public health problems.
+
+Overall, this practical was challenging but useful. It improved both my Python skills and my understanding of infectious disease modelling. It also showed me how simple code can be used to explore important questions such as disease spread, recovery, and the effect of vaccination.
