@@ -1,0 +1,9 @@
+Question:
+What was the distribution of DALYs across all countries in 2019?
+
+Line number:
+62-72
+
+Discussion:
+The histogram shows that most countries had relatively lower DALYs values in 2019, while only a small number of countries had very high DALYs values. 
+This suggests that disease burden was unevenly distributed across countries. Differences in healthcare systems, economic development, and disease prevalence may explain this pattern.
